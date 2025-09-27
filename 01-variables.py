@@ -1,0 +1,9 @@
+money=50
+icecream=10
+cola=5
+print("当前钱包余额：",money)
+money=money-icecream
+print("购买了冰淇淋，花费：",icecream)
+money=money-cola
+print("购买了可乐，花费：",cola)
+print("total cost:",money)
