@@ -9,7 +9,7 @@ def get_num():
         try:
             a=int(input("please input the number between 1 and 10:"))
         except ValueError:
-            print(f'a is invalid')
+            print(f'the number is invalid')
         except :
             print('except')
         else:
@@ -38,4 +38,5 @@ def play_game():
     if chance >= 3:
         print("u failed")
 if __name__ == "__main__":
+
     play_game()
