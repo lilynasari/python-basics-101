@@ -1,2 +1,4 @@
 # python-basics-101
-some basic
+python 01-variables/01-variables.py
+
+
