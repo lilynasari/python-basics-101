@@ -4,8 +4,8 @@
 - **python 02-strings/02-strings.py**  
 【字符串练习运行截图】https://github.com/lilynasari/python-basics-101/blob/548ff3938eb5bd2973a76de6b989bdfeb4b1e1f1/images/02strings.png  
 - **python 03-conditions-loops/mini-projects/guess-number/app.py(此处直接上传了优化后有输入校验的版本）**  
-【猜数字小项目运行截图】https://github.com/lilynasari/python-basics-101/blob/e1b5a162d14d92495f2cdb3e3b58e0d4767809c8/images/guess_number_app.png
-  学习心得：
+【猜数字小项目运行截图】https://github.com/lilynasari/python-basics-101/blob/e1b5a162d14d92495f2cdb3e3b58e0d4767809c8/images/guess_number_app.png  
+  学习心得：  
     1.将项目不同功能部分可以进行拆分，在不同函数下完成不同功能，在通过调用函数的方式将其连接在一起  
     2.尽量不要定义作用与全局范围的变量，让变量都仅为函数内部变量  
     3.输入语句的位置要选好避免重复输入（如利用函数调用）  
