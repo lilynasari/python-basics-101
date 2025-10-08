@@ -30,7 +30,40 @@
   - **输出格式**  
          1.print语句输出自动换行，取消自动换行需要在输出语句末尾加，end=''  
          2.print(" ") 即可打出空格  
-         3.print内容要上下对齐则在语句的""中加入\t  
+         3.print内容要上下对齐则在语句的""中加入\t
+  - **函数**  
+         1.函数的定义  
+           def 函数名（传入参数（可省略））：    
+                函数体    
+                return 返回值（可省略返回值）    
+         2.调用语法：函数名（参数）    
+         3.传入参数：  
+                 作用：使函数从外部接受参数进行调用  
+                 注意：参数之间用逗号分隔，定义形式参数调用时提供实际参数  
+            eg：def add(x,y):    
+                    result=x+y    
+                    print(f"{x}+{y}={result})    
+                add(5,6)    
+          4.返回值：        
+                作用：函数完成内容后给调用者的一个结果    
+                注意：函数遇到return之后就会结束  
+          5.none类型    
+                作用：返回none即返回内容为空    
+                      (1)用于if判断时：none=false  
+                                   eg:def check_age(age):  
+                                          if age>18:  
+                                               return "SUCCESS"  
+                                          else:  
+                                               return None  
+                                       result=check(age)  
+                                       if not result    
+                                           #not result即表示true因为none表示false  
+                                           print(sorry u can't get in)  
+                        (2)用于声明无初始内容的变量：在变量定义时先标记为none表示暂时不提                              供值后续在进行处理。  
     
-                
+                注意：eg：return None    
+            
+                      
+           
+        
       
