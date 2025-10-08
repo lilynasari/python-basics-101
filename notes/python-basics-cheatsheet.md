@@ -59,9 +59,8 @@
                                        if not result    
                                            #not result即表示true因为none表示false  
                                            print(sorry u can't get in)  
-                        (2)用于声明无初始内容的变量：在变量定义时先标记为none表示暂时不提                              供值后续在进行处理。  
-    
-                注意：eg：return None    
+                        (2)用于声明无初始内容的变量：在变量定义时先标记为none表示暂时不提供值后续在进行处理。  
+                 注意：eg：return None    
             
                       
            
