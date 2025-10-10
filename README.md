@@ -13,4 +13,6 @@
     4.写代码前先分析好要做什么事情，选好循环语句避免if else深层嵌套这类情况发生    
 - **python 03-conditions-loops/sum_to_n.py**  
 【求1到n的和运行截图】https://github.com/lilynasari/python-basics-101/blob/b0419030bc60db67c5789c136eb31666e7a84af8/images/sum_to_n.png  
-- **python
+- **python 03-conditions-loops/multiplication_from_1_to_9 .py**
+【九九乘法表运行截图】  
+- **python 
