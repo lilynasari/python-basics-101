@@ -19,4 +19,4 @@
 【循环综合发工资练习运行截图】https://github.com/lilynasari/python-basics-101/blob/main/images/04condition_loops_multi.png    
 - **python  04-function/ATM-model.py**     
 【函数模拟ATM机练习运行截图1】https://github.com/lilynasari/python-basics-101/blob/main/images/ATM-model.png  
-【函数模拟ATM机练习运行截图2】   
+【函数模拟ATM机练习运行截图2】https://github.com/lilynasari/python-basics-101/blob/4a230f83e2abb805b3843f014d21bf6190182325/images/ATM-model2.png     
