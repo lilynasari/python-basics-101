@@ -90,7 +90,29 @@ eg：>>> def pressure(v, t, n):
 ````
 参数默认值：
 将默认值绑定到形参a上，当未给出形参a的实参时则带入默认值进行计算
+````
+### 1.5.6
+**测试：**
+- 1.断言（Assertions）:assert fib(8)==13(该表达式存在于布尔上下文中)，（当表达式计算结果为假输出->）"the 8th number in fib should be 13"
+当表达式计算值为真时：断言语句执行无效
+..............假..：assert语句导致错误，程序不再执行
 
+- 2.文档测试（doctests）:
+````python
+>>> from doctest import run_docstring_examples
+>>> run_docstring_examples(sum_naturals, globals(), True)
+Finding tests in NoName
+Trying:
+    sum_naturals(10)
+Expecting:
+    55
+ok
+Trying:
+    sum_naturals(100)
+Expecting:
+    5050
+ok
+````
 
             
      
