@@ -14,12 +14,12 @@
 ## python 03-conditions-loops/sum_to_n.py
 [求1到n的和运行截图](https://github.com/lilynasari/python-basics-101/blob/b0419030bc60db67c5789c136eb31666e7a84af8/images/sum_to_n.png)    
 ## python 03-conditions-loops/multiplication_from_1_to_9 .py  
-**How to run:python multiplication_from_1_to_9.py**
+**How to run:python multiplication_from_1_to_9.py**  
 [九九乘法表运行截图](https://github.com/lilynasari/python-basics-101/blob/aad4e7526feeef804b9ce6e868c16daa6982cca8/images/04multiply_from_1_to_9.png)     
 ## python  03-conditions-loops/condition_loops_multi.py    
-**How to run:python condition_loops_multi.py**
+**How to run:python condition_loops_multi.py**  
 [循环综合发工资练习运行截图](https://github.com/lilynasari/python-basics-101/blob/main/images/04condition_loops_multi.png)    
 ## python  04-function/atm_clie.py
-**How to run:python atm_clie.py**
+**How to run:python atm_clie.py**  
 [函数模拟ATM机练习运行截图1](https://github.com/lilynasari/python-basics-101/blob/main/images/ATM-model.png)  
 [函数模拟ATM机练习运行截图2](https://github.com/lilynasari/python-basics-101/blob/4a230f83e2abb805b3843f014d21bf6190182325/images/ATM-model2.png)     
