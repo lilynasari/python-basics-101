@@ -20,6 +20,9 @@
 **How to run:python condition_loops_multi.py**  
 [循环综合发工资练习运行截图](https://github.com/lilynasari/python-basics-101/blob/main/images/04condition_loops_multi.png)    
 ## python  04-function/atm_clie.py
+### atm_cli程序部分  
 **How to run:python atm_clie.py**  
 [函数模拟ATM机练习运行截图1](https://github.com/lilynasari/python-basics-101/blob/main/images/ATM-model.png)  
-[函数模拟ATM机练习运行截图2](https://github.com/lilynasari/python-basics-101/blob/4a230f83e2abb805b3843f014d21bf6190182325/images/ATM-model2.png)     
+[函数模拟ATM机练习运行截图2](https://github.com/lilynasari/python-basics-101/blob/4a230f83e2abb805b3843f014d21bf6190182325/images/ATM-model2.png)  
+### atm_cli测试部分  
+**How to run:python tests_atm_cli.py**  
