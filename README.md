@@ -1,5 +1,8 @@
 # python-basics-101
-运行环境：版本：python3.8.20 库：python库
+**运行环境：**
+版本：python3.8.20 
+库：python库
+    pytest8.3.5
 ## python 01-variables/01-variables.py  
 [变量练习运行截图](https://github.com/lilynasari/python-basics-101/blob/7d38085491b326cba969f8c0f29239af1c124a3d/images/01variables.png ) 
 ## python 02-strings/02-strings.py  
