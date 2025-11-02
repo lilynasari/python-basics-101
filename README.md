@@ -29,4 +29,4 @@
 [函数模拟ATM机练习运行截图2](https://github.com/lilynasari/python-basics-101/blob/4a230f83e2abb805b3843f014d21bf6190182325/images/ATM-model2.png)  
 ### atm_cli测试部分  
 **How to run:python test_atm_cli.py**  
-[atm针对空输入非法输入的单元测试](https://github.com/lilynasari/python-basics-101/blob/a78ad6d35aa2d803faec0ce8c217ea270594af6c/images/test_atm_cli.png)  
+[atm针对空输入非法输入的单元测试](https://github.com/lilynasari/python-basics-101/blob/52cbbef4d400a6f92898d7953767393bd63f4a01/images/test_atm_cli.png)  
