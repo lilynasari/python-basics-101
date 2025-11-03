@@ -113,8 +113,63 @@ Expecting:
     5050
 ok
 ````
+## 1.6
+### 1.6.1
+作为参数的函数，体现函数作为一个方法的思想
+eg：
+````python
+>>> def summation(n, term):
+        total, k = 0, 1
+        while k <= n:
+            total, k = total + term(k), k + 1
+        return total
+>>> def identity(x):
+        return x
+>>> def sum_naturals(n):
+        return summation(n, identity)
+>>> sum_naturals(10)
+55
+````
+可以用完全相同的summation函数来对数列求和，只需调整形参位置的函数即可
+### 1.6.2  
+info：
+作为通用方法的函数  
+原本："用户定义函数"-->数值运算的抽象模式与**涉及的特定数字**无关  
+拥有高阶函数之后：用函数表达**计算的通用方法**与其所**调用的特定函数**无关
+1.通用表达式  
+定义：不会指定要解决的具体问题，而是会将这些细节留给作为参数传入的函数。
+eg：
+````python
+>>> def improve(update, close, guess=1):
+        while not close(guess):
+            guess = update(guess)
+        return guess
 
-            
+>>> def golden_update(guess):
+        return 1/guess + 1
+
+>>> def square_close_to_successor(guess):
+        return approx_eq(guess * guess, guess + 1)
+
+>>> def approx_eq(x, y, tolerance=1e-15):
+        return abs(x - y) < tolerance
+
+>>> improve(golden_update, square_close_to_successor)
+1.6180339887498951
+````
+在上例中的improve函数就是一个通用表达式  
+
+### 1.6.3  
+1.嵌套定义  
+将函数定义放在另一个函数定义内  
+2.词法作用域  
+局部定义的函数可以访问整个定义作用域的名称绑定，嵌套定义之间共享名称  
+**其中，内部函数可以访问定义它们的环境中的名称**
+
+
+
+
+
      
 
 
